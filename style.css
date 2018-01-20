@@ -1,0 +1,234 @@
+body {
+	margin: 0;
+	font-size: 16px;
+	font-family: "Avenir Next", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	line-height: 140%;
+	background: #f6f9fc;
+}
+
+
+.wrap {
+	max-width: 750px;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #39464f;
+}
+
+a:visited {
+	color: #39464f;
+}
+
+a:hover {
+	color: #c4f0ff;
+	transition:.3s;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 500;
+	color: #fff;
+}
+
+h2 {
+	font-size: 16px;
+	color: #7c8896;
+}
+
+hr {
+	background-color: #e9e9e9;
+	height: 1px;
+	border: 0;
+	/*margin-top: 50px;*/
+}
+
+p {
+	color: #39464f;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: .25px;
+	margin: 0;
+}
+
+.main-card {
+	background-color: #fff;
+	height: 100%;
+}
+
+.main-hdr {
+	height: 22em;
+	padding: 20px;
+	clip-path: polygon(0 0, 1600px 0, 1600px 40%, 0 100%);
+	background-color: #3b3c74;
+	/* background-image: url("images/test.png");
+	background-position: right;
+	background-size: 25%;
+	background-repeat: no-repeat; */
+}
+
+.footer {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.contacts {
+	width: 25px;
+	opacity: .5;
+	padding: 1px 8px 1px 1px;
+}
+
+.contacts:hover {
+    opacity: 1.0;
+		transition:.3s;
+}
+
+.subhead-hp {
+	color: #c4f0ff;
+	margin-bottom: 30px;
+}
+
+.subhead {
+	color: #c4f0ff;
+	margin-bottom: 30px;
+	width: 50%;
+}
+
+.hdr-btn {
+	background-color: #545bb9;
+	text-align: center;
+	border-radius: 6px;
+	padding: 10px 20px 10px 20px;
+	font-weight: 600;
+	color: #fff;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+
+.bck-btn {
+	background-color: #545bb9;
+	text-align: center;
+	border-radius: 6px;
+	padding: 10px 20px 10px 20px;
+	font-weight: 600;
+	color: #fff;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+	margin-top: 30px;
+}
+
+.hdr-btn, a {
+	color: #fff;
+}
+
+.hdr-btn, a:visited {
+	color: #fff;
+}
+
+.cards {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 60px 30px 30px 30px;
+}
+
+.card {
+  background-color: #fff;
+  margin: auto;
+  border-radius: 14px;
+	min-width: 300px;
+	height: 400px;
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, .3);
+	margin-bottom: 50px;
+}
+
+.app-card {
+  background-color: #fff;
+	min-width: 304px;
+	height: 400px;
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, .3);
+	position: absolute;
+	right: 50px;
+	top: 50px;
+	padding: 0;
+	height: 540px;
+}
+
+.tv-card {
+  background-color: #fff;
+	min-width: 304px;
+	height: 400px;
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, .3);
+	position: absolute;
+	right: 50px;
+	top: 50px;
+	padding: 0;
+	height: 540px;
+}
+
+.rena {
+	background-image: url("images/rena.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.cbt {
+	background-image: url("images/cbt.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.scann {
+	background-image: url("images/scann.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.tvos {
+	background-image: url("images/tvos.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.app-icon {
+	height: 80px;
+	margin-top: 30%;
+}
+
+.app-title {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.app-subtitle {
+	color: #fff;
+	font-size: 12px;
+}
+
+.app-btn {
+	background-color: #545bb9;
+	text-align: center;
+	border-radius: 6px;
+	padding: 10px 20px 10px 20px;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: .5px;
+	color: #fff;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+
+.img {
+	width: 100%;
+}
+
+.content {
+	padding: 8% 8% 0 8%;
+}
+
+.filler {
+	height: 300px;
+}
