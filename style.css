@@ -9,10 +9,12 @@ body {
 
 
 .wrap {
+	min-height: 200px;
 	max-width: 750px;
 	margin: 0 auto;
 	position: relative;
 	display: block;
+	overflow: hidden;
 }
 
 a {
@@ -45,7 +47,6 @@ hr {
 	background-color: #e9e9e9;
 	height: 1px;
 	border: 0;
-	/*margin-top: 50px;*/
 }
 
 p {
@@ -66,10 +67,6 @@ p {
 	padding: 20px;
 	clip-path: polygon(0 0, 1600px 0, 1600px 40%, 0 100%);
 	background-color: #3b3c74;
-	/* background-image: url("images/test.png");
-	background-position: right;
-	background-size: 25%;
-	background-repeat: no-repeat; */
 }
 
 .footer {
@@ -232,4 +229,24 @@ p {
 
 .filler {
 	height: 300px;
+}
+
+#one {
+  float:left; 
+  width:500px;
+  border-right:2px solid #000;
+}
+#two { 
+  overflow:hidden;
+  min-height:170px;
+}
+
+@media screen and (max-width: 400px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
 }
